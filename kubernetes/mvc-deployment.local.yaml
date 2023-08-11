@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: mvc
-        image: bfren/aspnet
+        image: ubuntu/dotnet-aspnet:edge
         ports:
         - containerPort: 80
         resources:
