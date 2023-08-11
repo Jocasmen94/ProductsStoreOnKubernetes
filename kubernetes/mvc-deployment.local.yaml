@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: mvc
-        image: microsoft/aspnetcore-builder-arm64
+        image: bfren/aspnet
         ports:
         - containerPort: 80
         resources:
